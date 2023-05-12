@@ -10,7 +10,7 @@ variable "service" {
   default     = false
 }
 
-variable "service_policy" {
+variable "policy" {
   description = "The deployer group policy"
   type        = string
   nullable    = false

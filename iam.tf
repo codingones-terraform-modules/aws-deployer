@@ -27,5 +27,5 @@ resource "aws_iam_policy" "service_policy" {
   name        = "${var.service}.policy"
   description = "Policy that grants access to the needed AWS services"
 
-  policy = var.service_policy
+  policy = var.policy
 }
